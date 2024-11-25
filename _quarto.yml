@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: My blog
+      - href: Research.qmd
+        text: Research
+      - icon: github
+        href: https://github.com/
+
+format:
+  html:
+    theme: vapor
+    css: styles.css
+
+editor: visual
+
+execute:
+  freeze: auto
